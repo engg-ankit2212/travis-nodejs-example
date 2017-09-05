@@ -6,6 +6,6 @@
  */
 module.exports = {
   greet: function(name="World") {
-    return String("Hello, %s!", name);
+    return String(`Hello, ${name}!`);
   }
 };
