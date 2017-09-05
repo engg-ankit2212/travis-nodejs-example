@@ -11,3 +11,4 @@ notifications:
     on_start: never     # default: never
     on_cancel: never    # default: always
     on_error: always    # default: always
+  email: false
