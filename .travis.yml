@@ -5,7 +5,7 @@ node_js:
 notifications:
   webhooks: 
     urls:
-      - https://your-twilio-functions-domain.com
+      - https://silent-beam-2911.twil.io/travis
     on_success: never   # default: always
     on_failure: always  # default: always
     on_start: never     # default: never

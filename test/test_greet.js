@@ -7,9 +7,16 @@ describe('greet', function() {
       assert.equal("Hello, Brodan!", greet.greet("Brodan"));
     });
   });
+
   describe('when given no name', function() {
     it('should return "Hello, World!"', function() {
       assert.equal("Hello, World!", greet.greet());
+    });
+  });
+
+  describe('when designed to fail', function() {
+    it('should should fial', function() {
+      assert.equal("This test should fail.", greet.greet());
     });
   });
 });
