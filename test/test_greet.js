@@ -15,7 +15,7 @@ describe('greet', function() {
   });
 
   describe('when designed to fail', function() {
-    it('should should fial', function() {
+    it('should should fail', function() {
       assert.equal("This test should fail.", greet.greet());
     });
   });
