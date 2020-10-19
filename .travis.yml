@@ -60,4 +60,34 @@ jobs:
           on_start: never     # default: never
           on_cancel: never    # default: always
           on_error: always    # default: always
+    - language: node_js
+      arch: ppc64le
+      dist: xenial
+      node_js:
+      - node
+      notifications:
+        email: false
+        webhooks:
+          urls:
+            secure: Ak2c1Uf2mnKiFPirGjIbAzWcRuvVnriB5PldECi8qHqNi7orHEg/QTXhMUq9c4g7kHqaPHxG7MDK8ofjn96pY8BR5fC0ryI/LCTe9JD0QCOCdt+r5F9XHiEYOM15ay008gPiwpXAJD+lVcmFvgwu5r4tjdg9i2HEHYfw/PFOlzAdjyZICFQ8Xh2aTOtx1Etwg7wpZqc1VM4t0lGjoQE23gJdhC9qsyLLmFeGMMxzXviiEYmPe1FbJGiwGlJ6gQGj+TVeRDNv7k+W1/X1g0N+eJN3sKD12ZT7jI67/ZZhfYlC6jvJFesCzcYLMOK5HfZ9zbdCnpgVbU9ZTkP2BqeljMgrCgxtqvySr7el+bzF3O+a8fd4cde9Wnyc3ZDjVygPE77VILL+iHBpa7vG4qOmBpuQeJTOYgTNPlBCfDYhQCm3RlwnIqVqf70uD1lCpXmBxkza8Bx59lDV0EwOW7PXmCBTmQRIpXC0WecuwAx4x51X7MrDiZ8brUx13ZFRnhGX7ZelVeuc1ffP5Es6usUQyOOtYy/OhppSCoHPEexx1n9wsHYTi9zJns3waPmeSBVteACHY2oi9RZmjc8Ah1hNOTqtTQOUVqIiCZyAPflzfJAcdsn1pN7iYs5+kzFXwdXO3GkTVRcSpkbDkXl3/7jVoMTRIJVnTp3bc8SQTZsR+EA=
+          on_success: never   # default: always
+          on_failure: always  # default: always
+          on_start: never     # default: never
+          on_cancel: never    # default: always
+          on_error: always    # default: always
+    - language: node_js
+      arch: amd64
+      dist: xenial
+      node_js:
+      - node
+      notifications:
+        email: false
+        webhooks:
+          urls:
+            secure: Ak2c1Uf2mnKiFPirGjIbAzWcRuvVnriB5PldECi8qHqNi7orHEg/QTXhMUq9c4g7kHqaPHxG7MDK8ofjn96pY8BR5fC0ryI/LCTe9JD0QCOCdt+r5F9XHiEYOM15ay008gPiwpXAJD+lVcmFvgwu5r4tjdg9i2HEHYfw/PFOlzAdjyZICFQ8Xh2aTOtx1Etwg7wpZqc1VM4t0lGjoQE23gJdhC9qsyLLmFeGMMxzXviiEYmPe1FbJGiwGlJ6gQGj+TVeRDNv7k+W1/X1g0N+eJN3sKD12ZT7jI67/ZZhfYlC6jvJFesCzcYLMOK5HfZ9zbdCnpgVbU9ZTkP2BqeljMgrCgxtqvySr7el+bzF3O+a8fd4cde9Wnyc3ZDjVygPE77VILL+iHBpa7vG4qOmBpuQeJTOYgTNPlBCfDYhQCm3RlwnIqVqf70uD1lCpXmBxkza8Bx59lDV0EwOW7PXmCBTmQRIpXC0WecuwAx4x51X7MrDiZ8brUx13ZFRnhGX7ZelVeuc1ffP5Es6usUQyOOtYy/OhppSCoHPEexx1n9wsHYTi9zJns3waPmeSBVteACHY2oi9RZmjc8Ah1hNOTqtTQOUVqIiCZyAPflzfJAcdsn1pN7iYs5+kzFXwdXO3GkTVRcSpkbDkXl3/7jVoMTRIJVnTp3bc8SQTZsR+EA=
+          on_success: never   # default: always
+          on_failure: always  # default: always
+          on_start: never     # default: never
+          on_cancel: never    # default: always
+          on_error: always    # default: always
 
