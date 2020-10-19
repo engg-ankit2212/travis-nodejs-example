@@ -13,10 +13,4 @@ describe('greet', function() {
       assert.equal("Hello, World!", greet.greet());
     });
   });
-
-//   describe('when designed to fail', function() {
-//     it('should fail', function() {
-//       assert.fail(null, null, 'this should fail');
-//     });
-//   });
 });
