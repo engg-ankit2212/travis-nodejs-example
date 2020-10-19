@@ -4,7 +4,7 @@ const assert = require('assert');
 describe('greet', function() {
   describe('when given the name "World"', function() {
     it('should return "Hello, World!"', function() {
-      assert.equal("Hello, Brodan!", greet.greet("World"));
+      assert.equal("Hello, World!", greet.greet("World"));
     });
   });
 
