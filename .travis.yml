@@ -3,6 +3,7 @@ jobs:
     - language: node_js
       arch: ppc64le
       dist: focal
+      group: edge
       node_js:
       - node
       notifications:
@@ -18,6 +19,7 @@ jobs:
     - language: node_js
       arch: amd64
       dist: focal
+      group: edge
       node_js:
       - node
       notifications:
@@ -33,6 +35,7 @@ jobs:
     - language: node_js
       arch: ppc64le
       dist: bionic
+      group: edge
       node_js:
       - node
       notifications:
@@ -48,6 +51,7 @@ jobs:
     - language: node_js
       arch: amd64
       dist: bionic
+      group: edge
       node_js:
       - node
       notifications:
@@ -63,6 +67,7 @@ jobs:
     - language: node_js
       arch: ppc64le
       dist: xenial
+      group: edge
       node_js:
       - node
       notifications:
@@ -78,6 +83,7 @@ jobs:
     - language: node_js
       arch: amd64
       dist: xenial
+      group: edge
       node_js:
       - node
       notifications:
